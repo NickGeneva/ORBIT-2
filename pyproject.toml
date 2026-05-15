@@ -52,6 +52,7 @@ dependencies = [
     "einops",
     "lpips",
     "xformers",
+    "mslk",
 ]
 
 [project.optional-dependencies]
