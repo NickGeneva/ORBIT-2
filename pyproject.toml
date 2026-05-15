@@ -39,7 +39,6 @@ dependencies = [
     "dask>=2022.2.0",
     "importlib-metadata",
     "matplotlib>=3.5.3",
-    "mpi4py",
     "netcdf4>=1.6.2",
     "pytorch-lightning>=1.9.0",
     "scikit-learn>=1.0.2",
@@ -56,6 +55,9 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+distributed = [
+    "mpi4py",
+]
 dev = [
     "black>=23.1.0",    
     "flake8>=3.9.2",
