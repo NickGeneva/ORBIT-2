@@ -51,6 +51,7 @@ dependencies = [
     "scikit-image",
     "einops",
     "lpips"
+    "xformers",
 ]
 
 [project.optional-dependencies]
